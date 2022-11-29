@@ -21,9 +21,11 @@ Principal Engineer at Zego
 `Mar 2020 - Now`
 __Principal Engineer at Zego__
 
-As Principal Engineer I'm responsible for the B2C area which includes all consumer interfaces and our new insurance platform. I do work closely day to day with the Head of Product and the Head of Engineering for the B2C area and reporting to leadership.
+As Principal Engineer I'm responsible for the B2C area of Zego which includes all consumer interfaces and our new insurance platform. This entails working closely with my 6 staff engineers to make sure work is being coordinated and we're sticking to Zego's platform vision. I also work closely day to day with the Head of Product and the Head of Engineering for the B2C area and reporting to leadership. 
 
 My day to day varies greatly but I'm usually doing 15%-25% coding. This is a mixture of Scala, python and some typescript.
+
+Worked with the other Principal Engineer in designing our new Insurance Platform. This is a architectural vision where we're taking Zego. Utilizing a platform to build our products on based on Scala and Akka. We're currently moving our monolith policies to this new platform.
 
 Other duties include working with teams or individuals where they need help. This can include pairing with developers, helping/peering on RFC's, mentoring, defining archicture or 1:1's with my staff engineers and TL's 
 
@@ -36,54 +38,29 @@ I started at Deliveroo as employee 7 and engineer 2. One of the first thing I wo
 
 After that initial rebranding I worked in many area's of Deliveroo. Mainly around the checkout and payments areas and then finally in the realtime fraud detection.
 
+When I started at Deliveroo we did about 300 orders on a good night. When I left we were over 600k orders a day.
+
 Some notiable achivements
 
-  - Move all of our rider payments (35-40k at the time) over to Citibank payments
-  - Launching 6 new countries in the space of a few months. This include brand new payment providers and methods like iDeal payments
-  - Geosharding Deliveroo so one regional failure didn't bring down everything
+
+  - Worked with many teams to help them scale and architect their solutions
+  - Move or world wide payments of our riders (60-70k at the time) over to Citibank payments
+  - Launching 6 new countries in the space of a few months. This include brand new payment providers and payment methods like iDeal payments and Sofort 
+  - Geosharding Deliveroo into country specific regions so one regional failure didn't bring down everything
   - Keeping the monolith running include major Ruby upgrades
+  - Helped keeping Deliveroo PSD2 compliant in all of our EU regions
 
 
-## Awards
+`Apr 2011 - Aug 2014`
+__Enterprise Architect at Synegen__
 
-`2012`
-President, *Royal Society*, London, UK
+At Synegen I work as Enterprise Architect and manager for all developers. I also establish our application development stacks and methodologies. Our current development stack is a modified version of the JHipster stack utilizing AngularJS, Spring 4 and Hibernate 4. Current clients stacks utilize Postgres and MongoDB for the backends or their preference.
 
-Associate, *French Academy of Science*, Paris, France
-
-
-
-## Publications
-
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-
-### Journals
-
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
-
-`1669`
-Lectiones opticæ.
-
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
+Architecting and building Global web presences for clients.
+Managing all developers at Synegen.
+Establishing development stacks and methodologies.
+Bringing in new technologies and establishing standards for them.
 
 
-## Occupation
-
-`1600`
-__Royal Mint__, London
-
-- Warden
-- Minted coins
-
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
-
-
-
-
+`... - Apr 2011`
+__Independant consultant__
