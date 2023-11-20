@@ -23,9 +23,9 @@ __Principal Engineer at Zego__
 
 As Principal Engineer I'm responsible for Zego UK which includes all consumer interfaces and our new insurance platform. This entails working closely with my 6 staff engineers to make sure work is being coordinated and we're sticking to Zego's platform vision. I also work closely day to day with the Head of Product and the Head of Engineering and reporting to leadership. 
 
-My day to day varies greatly but I'm usually doing 15%-25% coding where help is needed. This includes occationaly working on platform Scala/Akka applications, Django monolith and our React Native Delivery Application. Along with the coding I also line manage 4 Staff Engineers and help mentor our more junior engineers.
-
 In 2022 after coming to the conslusion our monolith wasn't going to scale and the amount of work required to fix issues was too great we decided to build a new Insurance Platform using Scala and Akka. I worked alongside the other Principal Engineer and Staff Engineers to architect and design a new platform which would allow Zego to scale and innovate more rapidly. 
+
+My day to day varies greatly but I'm usually doing 15%-25% coding where help is needed. This includes occationaly working on platform Scala/Akka applications, Python/Django monolith, various other Python/FastAPI services and our React Native Delivery Application. Along with the coding I also line manage 4 Staff Engineers and help mentor our more junior engineers.
 
 
 `Aug 2014 - Mar 2020`
