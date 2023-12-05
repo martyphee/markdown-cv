@@ -6,20 +6,6 @@ For more details, see the [project page](http://elipapa.github.io/markdown-cv), 
 
 ***
 
-## Customization
-
-Simply [fork the markdown-cv repo](https://github.com/elipapa/markdown-cv)
-
-![](https://help.github.com/assets/images/help/repository/fork_button.jpg)
-
-and edit the `index.md` file [directly in Github](https://help.github.com/articles/editing-files-in-your-repository/)
-
-![](https://help.github.com/assets/images/help/repository/edit-file-edit-button.png)
-
-adding your skills, jobs and education.
-
-![](https://help.github.com/assets/images/help/repository/edit-readme-light.png)
-
 ## Distribution
 
 To transform your plain text CV into a beautiful and shareable HTML page, you have two options:
