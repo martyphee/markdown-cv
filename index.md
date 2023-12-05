@@ -41,7 +41,7 @@ Some notiable achivements
   - Built out payments system (frontend and backend) to work with Stripe, Braintree/PayPal and Checkout.com depending on which country you were in.
   - Worked with many teams to help them scale and architect their solutions
   - Moved our worldwide payments of our riders from a manual BACS process (60-70k at the time) over to Citibank payments
-  - Launching 6 new countries in the space of a few months. This include brand new payment providers and payment methods like iDeal payments and Sofort 
+  - Launching 6 new countries in the space of a few months. This includes brand new payment providers and payment methods like iDeal payments and Sofort 
   - Geosharding Deliveroo into country specific regions so one regional failure didn't bring down everything
   - Keeping the monolith running including major Ruby upgrades
   - Helped keeping Deliveroo PSD2 compliant in all of our EU regions
