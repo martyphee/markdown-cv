@@ -17,13 +17,21 @@ Principal Engineer at Zego
 
 
 ## Work History
+`Dec 2023 - Now`
+__Founding Engineer at Fifth Dimension AI__
 
-`Mar 2020 - Now`
+Built customer Portal with NextJS/Typescript for customer to upload large documents (> 25mb) to GCP Cloud Storage.
+
+Work on our python services which orchestrate calls to LLM (claude, chatgpt...) for processing real estate documents
+
+Maintain and guide development on our Postgres instances.
+
+`Mar 2020 - Nov 2023`
 __Principal Engineer at Zego__
 
 As Principal Engineer I'm responsible for Zego UK which includes all consumer interfaces and our new insurance platform. This entails working closely with my 6 staff engineers to make sure work is being coordinated and we're sticking to Zego's platform vision. I also work closely day to day with the Head of Product and the Head of Engineering and reporting to leadership. 
 
-My day to day varies greatly, but I'm usually doing about 75% coding where help is needed. This includes occasionally working on platform Scala/Akka applications, Django monolith (Python), various other Python services and our React Native Delivery Application. Along with the coding I also line manage 4 Staff Engineers and help mentor our more junior engineers.
+My day to day varies greatly, but I'm usually doing about 75% coding where help is needed. This includes occasionally working on platform Scala/Akka applications, Django monolith (Python), various other Python services and our React Native Delivery Application and websites written in Typescript. Along with the coding I also line manage 4 Staff Engineers and help mentor our more junior engineers.
 
 In 2022 after coming to the conclusion our monolith wasn't going to scale and the amount of work required to fix issues was too great we decided to build a new Insurance Platform using Scala and Akka. I worked alongside the other Principal Engineer and Staff Engineers to architect and design a new platform which would allow Zego to scale and innovate more rapidly. 
 
@@ -37,7 +45,7 @@ After that initial rebranding I worked in many area's of Deliveroo. Mainly aroun
 
 When I started at Deliveroo we did about 300 orders on a good night. When I left we were over 600k orders a day.
 
-Some notiable achivements
+Some notable achievements
   - Built out payments system (frontend and backend) to work with Stripe, Braintree/PayPal and Checkout.com depending on which country you were in.
   - Worked with many teams to help them scale and architect their solutions
   - Moved our worldwide payments of our riders from a manual BACS process (60-70k at the time) over to Citibank payments
@@ -60,10 +68,9 @@ Bringing in new technologies and establishing standards for them.
 
 
 `... - Apr 2011`
-__Independant consultant__
+__Independent consultant__
 
-
-`2000 - Dec 2008`
+Working mainly in Java and Spring building various systems for clients.
 
 
 ## Education
