@@ -13,7 +13,7 @@ Principal Engineer, Zego
 
 ## Currently
 
-Principal Engineer at Zego
+Principal Engineer at Element Testing Technologies
 
 
 ## Work History
