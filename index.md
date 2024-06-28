@@ -3,7 +3,7 @@ layout: cv
 title: Martin Phee's CV
 ---
 # Martin Phee
-Principal Engineer, Zego
+Principal Engineer, Element Testing Technologies
 
 <div id="webaddress">
 <a href="martyphee@gmail.com">martyphee@gmail.com</a>
@@ -13,10 +13,15 @@ Principal Engineer, Zego
 
 ## Currently
 
-Principal Engineer at Zego
+Principal Engineer at Element Testing Technologies
 
 
 ## Work History
+`Mar 2024 - now`
+__Principal Engineer at Element Testing Technologies__
+
+One of the first hires to build a new team to replace McKinsey consultants who built Elements new onlines system RegNav.com. I've been mainly working on building out a new internal search engine for FDA medical device applications. This includes downloading the 85,000 plus documents from the FDA sites, extract text from the PDF's, use ChatGPT to extract relevant information and then encoding that text and loading into PgVector for searching. These workflows are all written in Python and utilise AirFlow for the workflows. I've also been helping out with various issues/enhancements on the RegNav site which was built as a distributed monolith using NextJS and Typescript. I've also worked on setting up some standards for how will use Pulsar with Avro messaging and Kotlin.
+
 `Dec 2023 - Now`
 __Founding Engineer at Fifth Dimension AI__
 
