@@ -25,7 +25,11 @@ One of the first hires to build a new team to replace McKinsey consultants who b
 `Dec 2023 - Mar 2024`
 __Founding Engineer at Fifth Dimension AI__
 
-Worked on Fifth Dimension Zapier orchestration along with their Python services. Helped setup best practices with the python services and Postgres database setup.
+Built customer Portal with NextJS/Typescript for customer to upload large documents (> 25mb) to GCP Cloud Storage.
+
+Work on our python services which orchestrate calls to LLM (claude, chatgpt…) for processing real estate documents
+
+Maintain and guide development on our Postgres instances.
 
 
 `Mar 2020 - Nov 2023`
