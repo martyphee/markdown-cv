@@ -17,8 +17,22 @@ Principal Engineer at Zego
 
 
 ## Work History
+`Mar 2024 - now`
+__Principal Engineer at Element Testing Technologies__
 
-`Mar 2020 - Now`
+One of the first hires to build a new team to replace McKinsey consultants who built Elements new onlines system RegNav.com. I've been mainly working on building out a new 
+internal search engine for FDA medical device applications. This including downloading the 85,000 plus documents from the FDA sites, extract text from the PDF's, use ChatGPT to extract 
+relevent information and then encoding that text and loading into PgVector for searching. These workflows are all writen in Python and utilize AirFlow for the workflows. 
+I've also been helping out with various issues/enhancements on the RegNav site which was built as a distributed monolith using NextJS and Typescript. I've also worked on setting up some standards for how will use Pulsar with Avro messaging and Kotlin.
+
+
+`Dec 2023 - Mar 2024`
+__Founding Engineer at Fifth Dimension AI__
+
+Worked on Fifth Dimension Zapier orchestration along with their Python services. Helped setup best practices with the python services and Postgres database setup.
+
+
+`Mar 2020 - Nov 2023`
 __Principal Engineer at Zego__
 
 As Principal Engineer I'm responsible for Zego UK which includes all consumer interfaces and our new insurance platform. This entails working closely with my 6 staff engineers to make sure work is being coordinated and we're sticking to Zego's platform vision. I also work closely day to day with the Head of Product and the Head of Engineering and reporting to leadership. 
