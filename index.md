@@ -22,15 +22,6 @@ __Principal Engineer at Element Testing Technologies__
 
 One of the first hires to build a new team to replace McKinsey consultants who built Elements new onlines system RegNav.com. I've been mainly working on building out a new internal search engine for FDA medical device applications. This includes downloading the 85,000 plus documents from the FDA sites, extract text from the PDF's, use ChatGPT to extract relevant information and then encoding that text and loading into PgVector for searching. These workflows are all written in Python and utilise AirFlow for the workflows. I've also been helping out with various issues/enhancements on the RegNav site which was built as a distributed monolith using NextJS and Typescript. I've also worked on setting up some standards for how will use Pulsar with Avro messaging and Kotlin.
 
-`Dec 2023 - Now`
-__Founding Engineer at Fifth Dimension AI__
-
-Built customer Portal with NextJS/Typescript for customer to upload large documents (> 25mb) to GCP Cloud Storage.
-
-Work on our python services which orchestrate calls to LLM (claude, chatgpt...) for processing real estate documents
-
-Maintain and guide development on our Postgres instances.
-
 `Mar 2020 - Nov 2023`
 __Principal Engineer at Zego__
 
