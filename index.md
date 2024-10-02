@@ -20,16 +20,45 @@ Principal Engineer at Element Testing Technologies
 `Mar 2024 - now`
 __Principal Engineer at Element Testing Technologies__
 
-One of the first hires to build a new team to replace McKinsey consultants who built Elements new onlines system RegNav.com. I've been mainly working on building out a new internal search engine for FDA medical device applications. This includes downloading the 85,000 plus documents from the FDA sites, extract text from the PDF's, use ChatGPT to extract relevant information and then encoding that text and loading into PgVector for searching. These workflows are all written in Python and utilise AirFlow for the workflows. I've also been helping out with various issues/enhancements on the RegNav site which was built as a distributed monolith using NextJS and Typescript. I've also worked on setting up some standards for how will use Pulsar with Avro messaging and Kotlin.
+One of the first hires to build a new team to replace McKinsey consultants who built Elements new onlines system RegNav.com. I've 
+been mainly working on building out a new internal search engine for FDA medical device applications. This includes downloading the 
+85,000 plus documents from the FDA sites, extract text from the PDF's, use ChatGPT to extract relevant information and then 
+encoding that text and loading into PgVector for searching. These workflows are all written in Python and utilise AirFlow 
+for the workflows. I've also been helping out with various issues/enhancements on the RegNav site which was built as a distributed 
+monolith using NextJS and Typescript. I've also worked on setting up some standards for how will use Pulsar with Avro messaging and Kotlin.
+
+Core tech:
+  - Python
+  - Kotlin
+  - PgVector
+  - NextJS
+  - Typescript
+  - Pulsar
 
 `Mar 2020 - Nov 2023`
 __Principal Engineer at Zego__
 
-As Principal Engineer I'm responsible for Zego UK which includes all consumer interfaces and our new insurance platform. This entails working closely with my 6 staff engineers to make sure work is being coordinated and we're sticking to Zego's platform vision. I also work closely day to day with the Head of Product and the Head of Engineering and reporting to leadership. 
+As Principal Engineer I'm responsible for Zego UK which includes all consumer interfaces and our new insurance platform. This entails 
+working closely with my 6 staff engineers to make sure work is being coordinated and we're sticking to Zego's platform vision. I 
+also work closely day to day with the Head of Product and the Head of Engineering and reporting to leadership. 
 
-My day to day varies greatly, but I'm usually doing about 75% coding where help is needed. This includes occasionally working on platform Scala/Akka applications, Django monolith (Python), various other Python services and our React Native Delivery Application and websites written in Typescript. Along with the coding I also line manage 4 Staff Engineers and help mentor our more junior engineers.
+My day to day varies greatly, but I'm usually doing about 75% coding where help is needed. This includes occasionally working on 
+platform Scala/Akka applications, Django monolith (Python), various other Python services and our React Native Delivery Application 
+and websites written in Typescript. Along with the coding I also line manage 4 Staff Engineers and help mentor our more junior engineers.
 
-In 2022 after coming to the conclusion our monolith wasn't going to scale and the amount of work required to fix issues was too great we decided to build a new Insurance Platform using Scala and Akka. I worked alongside the other Principal Engineer and Staff Engineers to architect and design a new platform which would allow Zego to scale and innovate more rapidly. 
+In 2022 after coming to the conclusion our monolith wasn't going to scale and the amount of work required to fix issues was 
+too great we decided to build a new Insurance Platform using Scala and Akka. I worked alongside the other Principal Engineer 
+and Staff Engineers to architect and design a new platform which would allow Zego to scale and innovate more rapidly.
+
+Core tech:
+  - Scala
+  - Akka
+  - Python 
+  - Django
+  - React
+  - React Native
+  - Typescript
+  - Postgres
 
 
 `Aug 2014 - Mar 2020`
@@ -51,16 +80,24 @@ Some notable achievements
   - Helped keeping Deliveroo PSD2 compliant in all of our EU regions
   - Worked our Postgres instances to make sure they'd scale and handle our increasing load
 
+Core tech
+  - Ruby on Rails
+  - React
+  - Scala
+  - Java
+  - Postgres
+
 
 `Apr 2011 - Aug 2014`
 __Enterprise Architect at Synegen__
 
 At Synegen I work as Enterprise Architect and manager for all developers. I also establish our application development stacks and methodologies. Our current development stack is a modified version of the JHipster stack utilizing AngularJS, Spring 4 and Hibernate 4. Current clients stacks utilize Postgres and MongoDB for the backends or their preference.
 
-Architecting and building Global web presences for clients.
-Managing all developers at Synegen.
-Establishing development stacks and methodologies.
-Bringing in new technologies and establishing standards for them.
+ - Setting up standard java development stacks for clients.
+ - Architecting and building Global web presences for clients.
+ - Managing all developers at Synegen.
+ - Establishing development stacks and methodologies.
+ - Bringing in new technologies and establishing standards for them.
 
 
 `... - Apr 2011`
