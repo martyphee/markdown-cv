@@ -45,11 +45,11 @@ __Principal Engineer at Zego__
 
 Led technical strategy and delivery for Zego UK's insurance platform and consumer interfaces, driving key business outcomes through engineering excellence:
 
-- Architected next-generation insurance platform using Scala/Akka to replace legacy monolith, enabling 3x faster product launches and reduction in critical incidents
+- Architected next-generation insurance platform using Scala/Akka to replace legacy monolith, Sanity.io for the static pages and new onboarding flows enabling faster product launches and reduction in critical incidents
 - Transformed customer self-service capability through React Native Delivery App enhancements, reducing customer service call volume by 65% and cutting wait times from 90+ minutes to under 15 minutes
 - Expanded market reach by implementing car driver onboarding flows in our legacy app, growing serviceable customer base and increasing new policy activations
 - Led cross-functional platform strategy in partnership with Head of Product and Head of Engineering, aligning technical roadmap with business priorities
-- Cultivated engineering excellence by managing 4 Staff Engineers and mentoring junior team members, resulting in 30% improvement in team velocity and reduced turnover
+- Cultivated engineering excellence by managing 4 Staff Engineers and mentoring junior team members
 - Maintained hands-on technical leadership across diverse technology stack (Scala/Akka, Python/Django, TypeScript/React Native), contributing code to critical initiatives while ensuring architectural consistency
 
 Core tech:
@@ -67,14 +67,7 @@ __Staff Engineer Deliveroo__
 
 I started at Deliveroo as employee 7 and engineer 2. One of the first thing I worked on was rebuilding the front-end and 
 part of the backend for our rebranding. [Original](https://web.archive.org/web/20140630215040/https://deliveroo.co.uk/) and [New](https://web.archive.org/web/20141215033841/https://deliveroo.co.uk/) This rebranding and enhancing the overall flow of 
-the site helped get us over 1000 orders a day from 300. 
-
-After that initial rebranding I worked in many area's of Deliveroo. Mainly around the checkout and payments areas and then 
-finally in the realtime fraud detection.
-
-When I started at Deliveroo we did about 300 orders on a good night. When I left we were over 600k orders a day.
-
-Some notable achievements
+the site helped get us over 1000 orders a day from 300.
   - Built out payments system (frontend and backend) to work with Stripe, Braintree/PayPal and Checkout.com depending on which country you were in
   - Worked with many teams to help them scale and architect their solutions
   - Moved our worldwide payments of our riders from a manual BACS process (60-70k at the time) over to Citibank payments
@@ -82,7 +75,7 @@ Some notable achievements
   - Geosharding Deliveroo into country specific regions so one regional failure didn't bring down everything
   - Keeping the monolith running including major Ruby upgrades
   - Helped keeping Deliveroo PSD2 compliant in all of our EU regions 
-  - Worked our Postgres instances to make sure they'd scale and handle our increasing load
+  - Managed our Postgres instances to make sure they'd scale and handle our increasing load
 
 Core tech
   - Ruby on Rails
