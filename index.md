@@ -43,7 +43,7 @@ Core Tech:
 - Kubernetes
 
 `Oct 2024 - Sep 2025`
-__Engineer at Apron__
+__Staff Engineer at Apron__
 
 Delivered Critical Payment Solutions at Apron
 
