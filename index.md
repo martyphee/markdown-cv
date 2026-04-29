@@ -12,7 +12,36 @@ Engineer, Apron Payments
 
 
 ## Work History
-`Oct 2024 - now`
+`Sep 2025 - now`
+__Engineer at Jitty__
+
+Building out new functionality to find Product market fit and improve overall system stability/scalabilityYou can 
+
+- Built and launched various initiatives include Pre-market homes, Agent Portal and Seller Valuations. Worked directly with the product manager to design new systems.
+- Handled the big dependency upgrade for our Rails app which included cleaning up the CI/CD pipeline to reduce deployment times
+- Took our location search, Google Places replacement, from a POC to full productionization. 
+  - This included configuring a Typesense cluster kubernetes
+  - Configuring statsd ingestion
+  - Building out grafana monitoring dashboards and alerting
+  - Productionizing the Go codebase
+  - Tuning the search algorithms for location lookups across various datasources
+- Worked on our Python agent which fixes issues with our AI property scraper
+  - This included cleaning up the codebase, dev was a RoR person
+  - Introducing UV + Ruff and proper pyproject setup
+  - Bringing dependencies up to date
+  - Various improvements to our MCP services
+- Various bug fixes in our Apple iOS app
+
+Core Tech:
+- Ruby on Rails with Stimulus
+- Python
+- Go
+- Postgres
+- AlloyDB
+- Typesense
+- Kubernetes
+
+`Oct 2024 - Sep 2025`
 __Engineer at Apron__
 
 Delivered Critical Payment Solutions at Apron
