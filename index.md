@@ -33,6 +33,7 @@ Building out new functionality to find Product market fit and improve overall sy
 - Various bug fixes in our Apple iOS app
 
 Core Tech:
+- GCP
 - Ruby on Rails with Stimulus
 - Python
 - Go
