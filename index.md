@@ -30,7 +30,7 @@ Building out new functionality to find Product market fit and improve overall sy
   - Introducing UV + Ruff and proper pyproject setup
   - Bringing dependencies up to date
   - Various improvements to our MCP services
-- Various bug fixes in our Apple iOS app
+  - Various bug fixes in our Apple iOS app
 
 Core Tech:
 - GCP
