@@ -25,7 +25,7 @@ Building out new functionality to find Product market fit and improve overall sy
   - Building out grafana monitoring dashboards and alerting
   - Productionizing the Go codebase
   - Tuning the search algorithms for location lookups across various data sources
-- Worked on our Python agent service which fixes issues with our AI property scraper
+- Worked on our Python agent service, which fixes issues with our AI property scraper
   - This included cleaning up the codebase
   - Introducing UV + Ruff and proper pyproject setup
   - Bringing dependencies up to date
@@ -50,6 +50,12 @@ Delivered Critical Payment Solutions at Apron
 - Launched GetPaid digital invoice payment system as sole engineer, transforming a hackathon concept into a production-ready solution in just 8 weeks, resulting in our customers to take their first payments from their customers
 - Spearheaded Apron's expense card offering by implementing core ledger functionality and transaction authorization gateway, completing development ahead of schedule and enabling early beta release
 - Demonstrated versatility by quickly mastering multiple financial product domains and associated technical requirements, enabling rapid deployment of new revenue-generating products
+
+Core tech:
+- GCP
+- Kotlin/Ktor and custom framework
+- Postgres
+- Tanstack/typescript
 
 `Mar 2024 - Oct 2024`
 __Principal Engineer at Element Testing Technologies__
