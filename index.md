@@ -20,13 +20,13 @@ Building out new functionality to find Product market fit and improve overall sy
 - Built and launched various initiatives include Pre-market homes, Agent Portal and Seller Valuations. Worked directly with the product manager to design new systems.
 - Handled the big dependency upgrade for our Rails app which included cleaning up the CI/CD pipeline to reduce deployment times
 - Took our location search, Google Places replacement, from a POC to full productionization. 
-  - This included configuring a Typesense cluster kubernetes
-  - Configuring statsd ingestion
+  - This included configuring a Typesense cluster in kubernetes
+  - Configuring statsd ingestion with Victoria Metrics
   - Building out grafana monitoring dashboards and alerting
   - Productionizing the Go codebase
-  - Tuning the search algorithms for location lookups across various datasources
-- Worked on our Python agent which fixes issues with our AI property scraper
-  - This included cleaning up the codebase, dev was a RoR person
+  - Tuning the search algorithms for location lookups across various data sources
+- Worked on our Python agent service which fixes issues with our AI property scraper
+  - This included cleaning up the codebase
   - Introducing UV + Ruff and proper pyproject setup
   - Bringing dependencies up to date
   - Various improvements to our MCP services
