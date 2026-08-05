@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Martin Phee — Staff+ Engineer CV</title>
+<meta name="description" content="CV of Martin Phee, staff+ software engineer in London. Payments, search infrastructure, and LLM systems. Employee 7 at Deliveroo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#1c1d1f;
+  --muted:#5c6066;
+  --faint:#9aa0a6;
+  --accent:#0d5c63;      /* deep petrol */
+  --accent-soft:#e7f0f0;
+  --rule:#e3e5e8;
+  --paper:#ffffff;
+  --rail:11ch;
+  --measure:72ch;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  font-family:"Source Serif 4",Georgia,serif;
+  font-size:15px;line-height:1.55;color:var(--ink);
+  background:var(--paper);
+  padding:3.5rem 1.25rem 5rem;
+}
+.page{max-width:calc(var(--rail) + var(--measure) + 2rem);margin:0 auto}
+a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent-soft)}
+a:hover{border-bottom-color:var(--accent)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+/* ---------- header ---------- */
+header{margin-bottom:2.75rem}
+h1{
+  font-family:"Archivo",system-ui,sans-serif;
+  font-weight:800;font-size:clamp(2rem,6vw,2.9rem);
+  letter-spacing:-0.02em;line-height:1.05;
+}
+.tagline{
+  font-family:"Archivo",system-ui,sans-serif;
+  font-weight:500;font-size:1.02rem;color:var(--accent);
+  margin-top:.5rem;max-width:60ch;
+}
+.contact{
+  margin-top:.9rem;display:flex;flex-wrap:wrap;gap:.35rem 1.4rem;
+  font-family:"JetBrains Mono",monospace;font-size:.78rem;color:var(--muted);
+}
+.contact a{color:var(--muted);border-bottom-color:var(--rule)}
+.contact a:hover{color:var(--accent)}
+
+/* ---------- highlights ---------- */
+.highlights{
+  border-top:2px solid var(--ink);
+  border-bottom:1px solid var(--rule);
+  padding:1.1rem 0 1.2rem;margin-bottom:2.75rem;
+  display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;
+}
+.highlights div p:first-child{
+  font-family:"Archivo",system-ui,sans-serif;font-weight:700;
+  font-size:.92rem;letter-spacing:.01em;margin-bottom:.2rem;
+}
+.highlights div p:last-child{font-size:.86rem;color:var(--muted);line-height:1.45}
+
+/* ---------- sections ---------- */
+h2{
+  font-family:"Archivo",system-ui,sans-serif;font-weight:700;
+  font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--faint);margin:0 0 1.4rem;
+}
+section{margin-bottom:2.5rem}
+
+/* ---------- entries: date rail ---------- */
+.entry{
+  display:grid;grid-template-columns:var(--rail) 1fr;gap:0 2rem;
+  padding:1.15rem 0;border-top:1px solid var(--rule);
+  break-inside:avoid;
+}
+.entry:first-of-type{border-top:none;padding-top:0}
+.dates{
+  font-family:"JetBrains Mono",monospace;font-size:.74rem;
+  color:var(--faint);padding-top:.3em;white-space:nowrap;
+}
+.role{
+  font-family:"Archivo",system-ui,sans-serif;font-weight:700;font-size:1.05rem;
+}
+.role .org{color:var(--accent)}
+.summary{margin-top:.35rem;font-style:italic;color:var(--muted);font-size:.95rem}
+.entry ul{margin:.65rem 0 0;padding-left:1.1rem}
+.entry li{margin-bottom:.4rem}
+.entry li::marker{color:var(--faint)}
+.stack{
+  margin-top:.8rem;display:flex;flex-wrap:wrap;gap:.35rem;
+}
+.stack span{
+  font-family:"JetBrains Mono",monospace;font-size:.68rem;
+  color:var(--accent);background:var(--accent-soft);
+  padding:.15rem .5rem;border-radius:3px;
+}
+
+/* ---------- footer / print button ---------- */
+.actions{margin-top:1rem}
+.actions button{
+  font-family:"Archivo",system-ui,sans-serif;font-weight:600;font-size:.85rem;
+  color:var(--paper);background:var(--accent);border:none;border-radius:5px;
+  padding:.55rem 1.1rem;cursor:pointer;
+}
+.actions button:hover{filter:brightness(1.1)}
+.actions button:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+
+@media (max-width:640px){
+  .highlights{grid-template-columns:1fr;gap:1rem}
+  .entry{grid-template-columns:1fr;gap:.15rem}
+  .dates{padding-top:0}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* ---------- print ---------- */
+@media print{
+  @page{size:A4;margin:16mm 18mm}
+  body{padding:0;font-size:10.2pt;line-height:1.42}
+  .page{max-width:none}
+  header{margin-bottom:1.2rem}
+  h1{font-size:20pt}
+  .tagline{font-size:10.5pt}
+  .contact{font-size:7.5pt}
+  .highlights{margin-bottom:1.2rem;padding:.6rem 0 .7rem;gap:1rem}
+  .highlights div p:first-child{font-size:9pt}
+  .highlights div p:last-child{font-size:8pt}
+  h2{margin-bottom:.7rem}
+  section{margin-bottom:1.1rem}
+  .entry{padding:.55rem 0;gap:0 1.2rem}
+  .dates{font-size:7.2pt}
+  .role{font-size:10.5pt}
+  .entry li{margin-bottom:.15rem}
+  .stack span{
+    background:none;padding:0;border-radius:0;
+    color:var(--muted);
+  }
+  .stack span+span::before{content:"· ";color:var(--faint)}
+  a{color:var(--ink);border-bottom:none}
+  .role .org{color:var(--accent);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .actions{display:none}
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<header>
+  <h1>Martin Phee</h1>
+  <p class="tagline">Staff+ engineer — payments, search infrastructure &amp; LLM systems. Early-stage specialist; employee&nbsp;7 at Deliveroo.</p>
+  <div class="contact">
+    <a href="mailto:martyphee@gmail.com">martyphee@gmail.com</a>
+    <a href="https://github.com/martyphee">github.com/martyphee</a>
+    <span>London, UK</span>
+  </div>
+  <div class="actions">
+    <button type="button" onclick="window.print()">Save as PDF</button>
+  </div>
+</header>
+
+<div class="highlights">
+  <div>
+    <p>Scaled Deliveroo from the ground up</p>
+    <p>Engineer #2: payments across 3 providers, rider payouts, geosharding, 6 country launches, PSD2.</p>
+  </div>
+  <div>
+    <p>Ships whole products solo</p>
+    <p>Took GetPaid invoice payments from hackathon to production in 8 weeks as sole engineer at Apron.</p>
+  </div>
+  <div>
+    <p>LLM &amp; search infrastructure</p>
+    <p>Productionised a Google Places replacement (Go, Typesense, k8s); AI scraper agents &amp; MCP services at Jitty.</p>
+  </div>
+</div>
+
+<section>
+  <h2>Work history</h2>
+
+  <div class="entry">
+    <div class="dates">2025 — now</div>
+    <div>
+      <p class="role">Engineer · <span class="org">Jitty</span></p>
+      <p class="summary">AI-powered property search. Building new product surface area while hardening system stability and scalability.</p>
+      <ul>
+        <li>Took our location search — a Google Places replacement — from POC to full production: Typesense cluster on Kubernetes, statsd → Victoria Metrics ingestion, Grafana dashboards and alerting, productionised the Go codebase, and tuned lookup ranking across multiple data sources.</li>
+        <li>Built and launched Pre-market Homes, Agent Portal and Seller Valuations, designing new systems directly with the product manager.</li>
+        <li>Owned the major Rails dependency upgrade, cleaning up the CI/CD pipeline and cutting deployment times.</li>
+        <li>Improved our Python agent service that repairs AI property-scraper output: modernised the codebase (uv, Ruff, proper pyproject), updated dependencies, and extended our MCP services.</li>
+      </ul>
+      <div class="stack"><span>GCP</span><span>Rails</span><span>Go</span><span>Python</span><span>Postgres / AlloyDB</span><span>Typesense</span><span>Kubernetes</span></div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dates">2024 — 2025</div>
+    <div>
+      <p class="role">Staff Engineer · <span class="org">Apron</span></p>
+      <p class="summary">Payments platform for small businesses and accountants.</p>
+      <ul>
+        <li>Launched GetPaid, a digital invoice payment system, as sole engineer — hackathon concept to production in 8 weeks, enabling customers to take their first payments.</li>
+        <li>Spearheaded Apron's expense card offering: core ledger functionality and the transaction authorisation gateway, delivered ahead of schedule for early beta.</li>
+      </ul>
+      <div class="stack"><span>GCP</span><span>Kotlin / Ktor</span><span>Postgres</span><span>TanStack / TypeScript</span></div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dates">2024</div>
+    <div>
+      <p class="role">Principal Engineer · <span class="org">Element Testing Technologies</span></p>
+      <p class="summary">Founding team member building RegNav, a regulatory navigation system.</p>
+      <ul>
+        <li>Engineered a pipeline processing 85,000+ FDA regulatory documents into a searchable knowledge base.</li>
+        <li>Built AI-powered information extraction with LLMs and pgvector, cutting research from hours to seconds.</li>
+        <li>Resolved critical bottlenecks in the Next.js/TypeScript app, improving page loads by 40%; established messaging standards on Pulsar with Avro and Kotlin.</li>
+      </ul>
+      <div class="stack"><span>Azure</span><span>Python / FastAPI</span><span>Kotlin</span><span>Next.js</span><span>Pulsar</span></div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dates">2020 — 2023</div>
+    <div>
+      <p class="role">Principal Engineer · <span class="org">Zego</span></p>
+      <p class="summary">Led technical strategy and delivery for Zego UK's insurance platform; managed 4 staff engineers while staying hands-on.</p>
+      <ul>
+        <li>Architected the next-generation insurance platform (Scala/Akka) replacing the legacy monolith, enabling faster product launches and reducing critical incidents.</li>
+        <li>Transformed customer self-service via the React Native driver app — call volume down 65%, wait times from 90+ minutes to under 15.</li>
+        <li>Led cross-functional platform strategy with Heads of Product and Engineering, aligning the technical roadmap with business priorities.</li>
+      </ul>
+      <div class="stack"><span>AWS / EKS / Kinesis</span><span>Scala / Akka / gRPC</span><span>Python / Django</span><span>React Native</span><span>Postgres</span></div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dates">2014 — 2020</div>
+    <div>
+      <p class="role">Staff Engineer · <span class="org">Deliveroo</span></p>
+      <p class="summary">Employee 7, engineer 2. Helped grow the platform from 300 to 1,000+ orders a day and far beyond.</p>
+      <ul>
+        <li>Built the payments system end to end across Stripe, Braintree/PayPal and Checkout.com, selected per country; launched 6 new countries in months, including new payment methods (iDEAL, Sofort).</li>
+        <li>Moved worldwide rider payouts (60–70k riders) from manual BACS to Citibank payments.</li>
+        <li>Geosharded Deliveroo into country-specific regions so a regional failure couldn't take down the platform; kept the monolith healthy through major Ruby upgrades and scaled our Postgres fleet.</li>
+        <li>Rebuilt the front-end and parts of the backend for the 2014 rebrand; kept all EU regions PSD2-compliant.</li>
+      </ul>
+      <div class="stack"><span>Rails</span><span>React</span><span>Scala</span><span>Java</span><span>Postgres</span></div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dates">2011 — 2014</div>
+    <div>
+      <p class="role">Enterprise Architect · <span class="org">Synegen</span></p>
+      <ul>
+        <li>Managed all developers; established application development stacks and methodologies (Spring, AngularJS, Postgres/MongoDB) and architected global web presences for clients.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="dates">— 2011</div>
+    <div>
+      <p class="role">Independent Consultant</p>
+      <ul>
+        <li>Built systems for clients, mainly in Java and Spring.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <div class="entry">
+    <div class="dates">1992 — 1996</div>
+    <div>
+      <p class="role">Eastern Illinois University</p>
+      <p class="summary">Computer Operations Management — 3.7/4.0 GPA</p>
+    </div>
+  </div>
+</section>
+
+</div>
+</body>
+</html>
