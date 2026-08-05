@@ -3,7 +3,7 @@ layout: cv
 title: Martin Phee's CV
 ---
 # Martin Phee
-Engineer, Apron Payments
+Engineer, Jitty
 
 <div id="webaddress">
 <a href="martyphee@gmail.com">martyphee@gmail.com</a>
